@@ -7,6 +7,7 @@ A four-language website (English · 繁體中文 with Hong Kong wording · 廣�
 - `/` English · `/zh-hant/` Traditional Chinese · `/yue/` Cantonese · `/zh-hans/` Simplified Chinese, linked with `hreflang` (the Cantonese page uses `lang="yue-Hant-HK"` and `hreflang="zh-HK"`, since Google does not support `yue` in hreflang)
 - `AccountingService`, `Person` and `FAQPage` structured data
 - Regulatory disclosure block in the footer
+- Hero photo from [Pexels](https://www.pexels.com/photo/documents-17065769/) (free to use under the Pexels License)
 - Plain HTML, CSS and JavaScript — no build step. Pages are `noindex` so the fictional firm does not appear in search results.
 
 Live demo: https://uxcircles.github.io/demo-accountant/
