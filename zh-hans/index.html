@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>港林会计 Harbour Lin — 伦敦广东话、普通话会计师（示范网站）</title>
+<meta name="description" content="UX CIRCLES 设计示范：服务香港 BN(O) 家庭与华人客户的伦敦会计师事务所。以中英文处理个人报税、海外收入、业主及有限公司账目。">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://uxcircles.github.io/demo-accountant/zh-hans/">
+<link rel="alternate" hreflang="en-GB" href="https://uxcircles.github.io/demo-accountant/">
+<link rel="alternate" hreflang="zh-Hant" href="https://uxcircles.github.io/demo-accountant/zh-hant/">
+<link rel="alternate" hreflang="zh-Hans" href="https://uxcircles.github.io/demo-accountant/zh-hans/">
+<link rel="alternate" hreflang="x-default" href="https://uxcircles.github.io/demo-accountant/">
+<meta property="og:title" content="港林会计 Harbour Lin — 伦敦广东话、普通话会计师（示范网站）">
+<meta property="og:description" content="UX CIRCLES 设计示范：服务香港 BN(O) 家庭与华人客户的伦敦会计师事务所。以中英文处理个人报税、海外收入、业主及有限公司账目。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://uxcircles.github.io/demo-accountant/zh-hans/">
+<meta name="theme-color" content="#14284b">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AccountingService",
+      "@id": "https://uxcircles.github.io/demo-accountant/#firm",
+      "name": "港林会计",
+      "url": "https://uxcircles.github.io/demo-accountant/zh-hans/",
+      "description": "UX CIRCLES 设计示范：服务香港 BN(O) 家庭与华人客户的伦敦会计师事务所。以中英文处理个人报税、海外收入、业主及有限公司账目。",
+      "telephone": "+44 20 7946 0123",
+      "email": "hello@example.com",
+      "areaServed": "GB",
+      "knowsLanguage": [
+        "en",
+        "yue",
+        "zh-Hant",
+        "zh-Hans"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressCountry": "GB"
+      },
+      "employee": [
+        {
+          "@type": "Person",
+          "name": "林凯欣 Ivy Lin FCCA",
+          "jobTitle": "创办人・个人税务",
+          "worksFor": {
+            "@id": "https://uxcircles.github.io/demo-accountant/#firm"
+          },
+          "knowsLanguage": "广东话、普通话、英文"
+        },
+        {
+          "@type": "Person",
+          "name": "陈家朗 Kelvin Chan CTA",
+          "jobTitle": "税务经理・业主税务",
+          "worksFor": {
+            "@id": "https://uxcircles.github.io/demo-accountant/#firm"
+          },
+          "knowsLanguage": "广东话、英文"
+        },
+        {
+          "@type": "Person",
+          "name": "Sophie Ward ACA",
+          "jobTitle": "公司账目",
+          "worksFor": {
+            "@id": "https://uxcircles.github.io/demo-accountant/#firm"
+          },
+          "knowsLanguage": "英文"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "个人报税 Self Assessment",
+          "description": "由登记、填表到预缴税款，每个数字都会先解释清楚才递交。"
+        },
+        {
+          "@type": "Offer",
+          "name": "香港收入与物业",
+          "description": "香港物业租金、强积金、股息或最后一笔工资——我们会评估英国要课税的部分，并申请已缴香港税款的抵免。"
+        },
+        {
+          "@type": "Offer",
+          "name": "英国出租物业",
+          "description": "买了出租物业？我们负责记账、申报可扣除开支，并分析以个人或公司名义持有的分别。"
+        },
+        {
+          "@type": "Offer",
+          "name": "有限公司",
+          "description": "在英国开店、开网店或做顾问？从注册公司、记账、发工资到年度账目一手包办。"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "由香港移居英国后第一年，需要报英国税吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "很多情况下都需要，特别是你仍有香港收入、物业租金或存款利息，或者是自雇人士。能否使用分割年度（split-year）处理，视乎你抵英的时间和方式。我们会在免费咨询中替你评估。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "香港物业的租金收入要在英国交税吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "如果你是英国税务居民，海外租金收入一般需要在英国申报。已在香港缴交的税款通常可以抵免英国税款，避免同一笔收入被双重征税。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "是否定额收费？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是。首次咨询后，我们会在开始工作前报定额价钱。本示范网站上的价格仅供参考。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "可以见面谈吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以，你可以到伦敦办公室，或用视像会议。大部分客户都是全程网上处理，可选广东话、普通话或英文。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="lang-zh-hans">
+<a class="skip" href="#main">跳至主要内容</a>
+<div class="demo-bar" role="note"><span class="demo-tag">DEMO</span><span><a href="https://ux-circles.com/professionals">UX CIRCLES</a> 设计示范网站。此为虚构事务所，并非真实公司，内容不构成任何专业建议。</span></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="港林会计">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#14284b"/><path d="M8 26c4-3 8-3 12 0s8 3 12 0" stroke="#e9b872" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M13 12v10M27 12v10M13 17h14" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>
+      <span class="brand-text"><span class="brand-name">港林会计</span><span class="brand-sub">英国特许公认会计师</span></span>
+    </a>
+    <nav class="main-nav" aria-label="选单">
+      <ul><li><a href="#services">服务</a></li><li><a href="#dates">报税日程</a></li><li><a href="#fees">收费</a></li><li><a href="#team">团队</a></li><li><a href="#faq">常见问题</a></li></ul>
+    </nav>
+    <div class="header-tools">
+      <div class="lang-switch" role="group" aria-label="语言"><a href="../" lang="en-GB" hreflang="en-GB" title="English">EN</a><a href="../zh-hant/" lang="zh-Hant" hreflang="zh-Hant" title="繁體中文">繁</a><a href="./" lang="zh-Hans" hreflang="zh-Hans" title="简体中文" aria-current="true">简</a></div>
+      <a class="btn btn-sm" href="#contact">免费咨询</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr">选单</span><span class="bars" aria-hidden="true"></span></button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="选单" hidden>
+    <ul><li><a href="#services">服务</a></li><li><a href="#dates">报税日程</a></li><li><a href="#fees">收费</a></li><li><a href="#team">团队</a></li><li><a href="#faq">常见问题</a></li><li><a href="#contact">联络我们</a></li></ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">专为在英华人家庭而设</p>
+        <h1>英国税务，用中文讲清楚。</h1>
+        <p class="lede">个人报税、香港收入与物业租金、有限公司账目——由熟悉中英两地税制的会计师，用你最熟悉的语言处理。</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">预约 20 分钟免费咨询 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#services">查看服务</a>
+        </div>
+        <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>定额收费，事前讲清楚</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>广东话・普通话・英文</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>受 ACCA 监管（示范）</span></li></ul>
+      </div>
+      <div class="hero-visual">
+        <div class="deadline-card">
+          <p class="dc-label">距离 1 月 31 日截止还有</p>
+          <p class="dc-num"><span data-countdown>—</span><small>日</small></p>
+          <p class="dc-note">网上个人报税及缴税</p>
+          <div class="dc-rows">
+            <div><span>登记 Self Assessment</span><b>10月5日</b></div>
+            <div><span>网上报税及缴税截止</span><b>1月31日</b></div>
+            <div><span>第二期预缴税</span><b>7月31日</b></div>
+          </div>
+        </div>
+        <div class="receipt" aria-hidden="true">
+          <p>HMRC · SA100</p><i></i><i></i><i class="s"></i><i></i>
+        </div></div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">服务</p>
+        <h2>我们可以帮你处理</h2>
+        <p>大部分客户都是近年才来英国。我们会从你的实际情况出发，而不是套用本地人的报税清单。</p>
+      </header>
+      <div class="svc-grid">
+      <article class="svc">
+        <p class="svc-kicker">个人</p>
+        <h3>个人报税 Self Assessment</h3>
+        <p>由登记、填表到预缴税款，每个数字都会先解释清楚才递交。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>来英第一个税务年度</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>分割年度（split-year）评估</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>代为处理 HMRC 来信</span></li></ul>
+        <p class="svc-price">每份报税表 £380 起（示范价格）</p>
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">海外收入</p>
+        <h3>香港收入与物业</h3>
+        <p>香港物业租金、强积金、股息或最后一笔工资——我们会评估英国要课税的部分，并申请已缴香港税款的抵免。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>海外税款抵免</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>汇率换算纪录</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>海外资产申报</span></li></ul>
+        <p class="svc-price">每项收入来源 £180 起（示范价格）</p>
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">业主</p>
+        <h3>英国出租物业</h3>
+        <p>买了出租物业？我们负责记账、申报可扣除开支，并分析以个人或公司名义持有的分别。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>租金账目与开支</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>按揭利息税务宽减</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Making Tax Digital 准备</span></li></ul>
+        <p class="svc-price">每年 £450 起（示范价格）</p>
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">生意</p>
+        <h3>有限公司</h3>
+        <p>在英国开店、开网店或做顾问？从注册公司、记账、发工资到年度账目一手包办。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>成立公司</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>VAT 及工资单</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>年度账目及公司税</span></li></ul>
+        <p class="svc-price">每月 £95 起（示范价格）</p>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="dates">
+    <div class="wrap dates-inner">
+      <header class="sec-head">
+        <p class="eyebrow">报税日程</p>
+        <h2>英国报税重要日子</h2>
+        <p>英国税务年度由 4 月 6 日至翌年 4 月 5 日。以下是客户最常问的日子。</p>
+      </header>
+      <ol class="timeline">
+          <li><span class="d">4月5日</span><div><h3>税务年度结束</h3><p>税务年度最后一天。</p></div></li>
+          <li><span class="d">10月5日</span><div><h3>登记 Self Assessment</h3><p>如需就刚结束的税务年度首次报税，须于此日前登记。</p></div></li>
+          <li><span class="d">10月31日</span><div><h3>纸本报税截止</h3><p>以纸本递交的报税表。</p></div></li>
+          <li><span class="d">1月31日</span><div><h3>网上报税及缴税截止</h3><p>网上递交报税表，并缴清税款及第一期预缴税。</p></div></li>
+          <li><span class="d">7月31日</span><div><h3>第二期预缴税</h3><p>下一年度税款的第二期预缴。</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="fees">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">收费</p>
+        <h2>开始前，先讲清楚收费</h2>
+        <p>每项服务都由免费咨询开始，并提供书面定额报价。</p>
+      </header>
+      <ol class="steps">
+        <li><span class="n">1</span><h3>免费咨询</h3><p>20 分钟，广东话、普通话或英文。</p></li>
+        <li><span class="n">2</span><h3>定额报价</h3><p>书面报价及所需文件清单。</p></li>
+        <li><span class="n">3</span><h3>代为递交</h3><p>我们准备、解释并递交，每份报税表都由你确认。</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">我们的团队</p>
+        <h2>讲你语言的会计师</h2>
+      </header>
+      <div class="team-grid">
+      <article class="person">
+        <div class="avatar" aria-hidden="true">IL</div>
+        <div>
+          <h3>林凯欣 Ivy Lin FCCA</h3>
+          <p class="role">创办人・个人税务</p>
+          <p class="bio">在香港入行、于英国取得专业资格，15 年来专门协助在两地都有收入的家庭。</p>
+          <p class="speaks"><span>使用语言</span> 广东话、普通话、英文</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="avatar" aria-hidden="true">KC</div>
+        <div>
+          <h3>陈家朗 Kelvin Chan CTA</h3>
+          <p class="role">税务经理・业主税务</p>
+          <p class="bio">英国特许税务师，专注物业收入、资产增值税及海外资产。</p>
+          <p class="speaks"><span>使用语言</span> 广东话、英文</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="avatar" aria-hidden="true">SW</div>
+        <div>
+          <h3>Sophie Ward ACA</h3>
+          <p class="role">公司账目</p>
+          <p class="bio">负责伦敦各区小型公司的账目、VAT 及工资事务。</p>
+          <p class="speaks"><span>使用语言</span> 英文</p>
+        </div>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="faq">
+    <div class="wrap narrow">
+      <header class="sec-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>常见问题</h2>
+      </header>
+      <div class="faq">
+      <details class="qa">
+        <summary>由香港移居英国后第一年，需要报英国税吗？</summary>
+        <div><p>很多情况下都需要，特别是你仍有香港收入、物业租金或存款利息，或者是自雇人士。能否使用分割年度（split-year）处理，视乎你抵英的时间和方式。我们会在免费咨询中替你评估。</p></div>
+      </details>
+      <details class="qa">
+        <summary>香港物业的租金收入要在英国交税吗？</summary>
+        <div><p>如果你是英国税务居民，海外租金收入一般需要在英国申报。已在香港缴交的税款通常可以抵免英国税款，避免同一笔收入被双重征税。</p></div>
+      </details>
+      <details class="qa">
+        <summary>是否定额收费？</summary>
+        <div><p>是。首次咨询后，我们会在开始工作前报定额价钱。本示范网站上的价格仅供参考。</p></div>
+      </details>
+      <details class="qa">
+        <summary>可以见面谈吗？</summary>
+        <div><p>可以，你可以到伦敦办公室，或用视像会议。大部分客户都是全程网上处理，可选广东话、普通话或英文。</p></div>
+      </details></div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap contact-inner">
+      <div>
+        <p class="eyebrow">联络我们</p>
+        <h2>告诉我们你需要什么帮助</h2>
+        <p>我们会在一个工作天内，以你使用的语言回复。</p>
+        <ul class="contact-list">
+          <li><span>电话</span><a href="tel:+442079460123">020 7946 0123</a></li>
+          <li><span>电子邮件</span><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><span>办公室</span>伦敦（虚构地址）</li>
+          <li><span>办公时间</span>星期一至五 9:00–18:00・星期六需预约</li>
+        </ul>
+      </div>
+      <form class="enquiry" novalidate data-demo-msg="这是示范网站，讯息并未送出。">
+        <label>姓名<input name="name" autocomplete="name" required></label>
+        <label>电子邮件<input name="email" type="email" autocomplete="email" required></label>
+        <label>电话（选填）<input name="phone" type="tel" autocomplete="tel"></label>
+        <label>偏好语言<select name="lang"><option>English</option><option>繁體中文</option><option selected>简体中文</option><option>广东话（口语）</option></select></label>
+        <label class="full">请简述你的需要<textarea name="message" rows="4"></textarea></label>
+        <button class="btn full" type="submit">送出查询 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="form-status full" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand">港林会计</p>
+        <p class="footer-sub">UX CIRCLES 为示范三语、合规网站而虚构的会计师事务所。</p>
+      </div>
+      <div class="reg">
+        <p class="reg-title">监管信息</p>
+        <ul><li>真实事务所需列明：ACCA 注册，执业证书编号 0000000（示范）</li><li>反洗钱监管机构：ACCA（示范）</li><li>专业责任保险承保人及承保地区（示范）</li><li>英格兰及威尔斯注册公司编号 00000000（示范）</li></ul>
+        
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 港林会计 (fictional) · <a href="#contact">隐私政策</a> · <a href="#contact">投诉程序</a> · 本示范网站不使用 cookies 或追踪工具。</p>
+      <p>概念网站设计： <a href="https://ux-circles.com/professionals">UX CIRCLES <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a></p>
+    </div>
+  </div>
+</footer>
+<script src="../main.js" defer></script>
+</body>
+</html>
