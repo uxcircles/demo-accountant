@@ -10,7 +10,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{font-family:var(--font-body);color:var(--ink);background:var(--bg);line-height:1.65;font-size:16px;overflow-x:hidden}
-body.lang-zh-hant,body.lang-zh-hans{line-height:1.8;letter-spacing:.02em}
+body.lang-zh-hant,body.lang-zh-hans,body.lang-yue{line-height:1.8;letter-spacing:.02em}
 img,svg{display:block;max-width:100%}
 a{color:inherit}
 .wrap{width:min(1160px,100% - 32px);margin-inline:auto}
@@ -54,9 +54,9 @@ a{color:inherit}
 .btn-ghost:hover{background:var(--surface);border-color:var(--ink)}
 
 .eyebrow{font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-text);margin-bottom:.9rem}
-.lang-zh-hant .eyebrow,.lang-zh-hans .eyebrow{letter-spacing:.2em}
+.lang-zh-hant .eyebrow,.lang-zh-hans .eyebrow,.lang-yue .eyebrow{letter-spacing:.2em}
 h1,h2,h3{font-family:var(--font-display);font-weight:var(--display-weight);line-height:1.12;color:var(--ink);letter-spacing:var(--display-tracking)}
-.lang-zh-hant h1,.lang-zh-hans h1,.lang-zh-hant h2,.lang-zh-hans h2,.lang-zh-hant h3,.lang-zh-hans h3{font-family:var(--font-display-zh);letter-spacing:.02em;line-height:1.3}
+.lang-zh-hant h1,.lang-zh-hans h1,.lang-yue h1,.lang-zh-hant h2,.lang-zh-hans h2,.lang-yue h2,.lang-zh-hant h3,.lang-zh-hans h3,.lang-yue h3{font-family:var(--font-display-zh);letter-spacing:.02em;line-height:1.3}
 h1{font-size:clamp(2.3rem,5.2vw,4.2rem)}
 h2{font-size:clamp(1.8rem,3.4vw,2.7rem)}
 h3{font-size:1.25rem}
@@ -122,7 +122,7 @@ h3{font-size:1.25rem}
 
 @media (max-width:1000px){.main-nav{display:none}.menu-btn{display:block}.header-tools{margin-left:auto}}
 @media (max-width:860px){.hero-inner,.contact-inner,.footer-top{grid-template-columns:1fr}}
-@media (max-width:560px){.header-tools .btn-sm{display:none}.brand-sub{display:none}.enquiry{grid-template-columns:1fr}.contact-list li{grid-template-columns:1fr;gap:.2rem}.person{flex-direction:column}}
+@media (max-width:560px){.header-tools .btn-sm{display:none}.brand-sub{display:none}.header-inner{gap:.75rem}.header-tools{gap:.5rem}.brand{min-width:0;flex-shrink:1}.brand-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.lang-switch a{min-width:1.75rem;height:1.8rem;font-size:.74rem}.menu-btn{width:40px;height:40px}.bars{top:19px}.enquiry{grid-template-columns:1fr}.contact-list li{grid-template-columns:1fr;gap:.2rem}.person{flex-direction:column}}
 
 
 .hero-visual{position:relative;padding:1rem 1rem 3rem}

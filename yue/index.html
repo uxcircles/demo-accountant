@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="yue-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>港林會計 Harbour Lin — 倫敦講廣東話嘅會計師（示範網站）</title>
+<meta name="description" content="UX CIRCLES 設計示範：專幫香港 BN(O) 家庭同華人客嘅倫敦會計師樓。用廣東話幫你搞掂個人報稅、海外收入、業主同有限公司盤數。">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://uxcircles.github.io/demo-accountant/yue/">
+<link rel="alternate" hreflang="en-GB" href="https://uxcircles.github.io/demo-accountant/">
+<link rel="alternate" hreflang="zh-Hant" href="https://uxcircles.github.io/demo-accountant/zh-hant/">
+<link rel="alternate" hreflang="zh-HK" href="https://uxcircles.github.io/demo-accountant/yue/">
+<link rel="alternate" hreflang="zh-Hans" href="https://uxcircles.github.io/demo-accountant/zh-hans/">
+<link rel="alternate" hreflang="x-default" href="https://uxcircles.github.io/demo-accountant/">
+<meta property="og:title" content="港林會計 Harbour Lin — 倫敦講廣東話嘅會計師（示範網站）">
+<meta property="og:description" content="UX CIRCLES 設計示範：專幫香港 BN(O) 家庭同華人客嘅倫敦會計師樓。用廣東話幫你搞掂個人報稅、海外收入、業主同有限公司盤數。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://uxcircles.github.io/demo-accountant/yue/">
+<meta name="theme-color" content="#14284b">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AccountingService",
+      "@id": "https://uxcircles.github.io/demo-accountant/#firm",
+      "name": "港林會計",
+      "url": "https://uxcircles.github.io/demo-accountant/yue/",
+      "description": "UX CIRCLES 設計示範：專幫香港 BN(O) 家庭同華人客嘅倫敦會計師樓。用廣東話幫你搞掂個人報稅、海外收入、業主同有限公司盤數。",
+      "telephone": "+44 20 7946 0123",
+      "email": "hello@example.com",
+      "areaServed": "GB",
+      "knowsLanguage": [
+        "en",
+        "yue",
+        "zh-Hant",
+        "zh-Hans"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressCountry": "GB"
+      },
+      "employee": [
+        {
+          "@type": "Person",
+          "name": "林凱欣 Ivy Lin FCCA",
+          "jobTitle": "創辦人・個人稅務",
+          "worksFor": {
+            "@id": "https://uxcircles.github.io/demo-accountant/#firm"
+          },
+          "knowsLanguage": "廣東話、普通話、英文"
+        },
+        {
+          "@type": "Person",
+          "name": "陳家朗 Kelvin Chan CTA",
+          "jobTitle": "稅務經理・業主稅務",
+          "worksFor": {
+            "@id": "https://uxcircles.github.io/demo-accountant/#firm"
+          },
+          "knowsLanguage": "廣東話、英文"
+        },
+        {
+          "@type": "Person",
+          "name": "Sophie Ward ACA",
+          "jobTitle": "公司帳目",
+          "worksFor": {
+            "@id": "https://uxcircles.github.io/demo-accountant/#firm"
+          },
+          "knowsLanguage": "英文"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "個人報稅 Self Assessment",
+          "description": "由登記、填表到預繳稅，每個數我哋都會解釋清楚先至交。"
+        },
+        {
+          "@type": "Offer",
+          "name": "香港收入與物業",
+          "description": "香港層樓收租、強積金、股息，定係最後嗰份糧——我哋幫你計清楚英國要抽幾多稅，再申請扣返喺香港交咗嘅稅。"
+        },
+        {
+          "@type": "Offer",
+          "name": "英國出租物業",
+          "description": "買咗層樓收租？我哋幫你做數、報可以扣嘅開支，再同你分析用個人定公司名義揸樓有咩分別。"
+        },
+        {
+          "@type": "Offer",
+          "name": "有限公司",
+          "description": "喺英國開舖、開網店定做顧問？由開公司、做數、出糧到年結，我哋一手包辦。"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "由香港搬嚟英國第一年，使唔使報英國稅？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "好多時都要，特別係你仲有香港收入、收緊租、有存款利息，或者係自僱。可唔可以用分割年度（split-year）計，要睇你幾時同點樣嚟英國。免費傾嗰陣我哋會幫你睇。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "香港層樓收嘅租，要唔要喺英國交稅？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "如果你係英國稅務居民，海外租金一般都要喺英國報。喺香港交咗嘅稅通常可以扣返，唔會同一筆錢俾人抽兩次稅。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "係咪定價收費？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "係。第一次傾完，我哋開工之前會報個定價。呢個示範網站啲價錢只係參考。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "可唔可以見面傾？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以，你可以上嚟倫敦寫字樓，或者 video call。大部分客都係全程網上搞掂，廣東話、普通話、英文都得。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="lang-yue">
+<a class="skip" href="#main">跳去主要內容</a>
+<div class="demo-bar" role="note"><span class="demo-tag">DEMO</span><span><a href="https://ux-circles.com/professionals">UX CIRCLES</a> 設計嘅示範網站。呢間係虛構公司，唔係真嘅，入面啲內容唔算係任何專業意見。</span></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="港林會計">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#14284b"/><path d="M8 26c4-3 8-3 12 0s8 3 12 0" stroke="#e9b872" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M13 12v10M27 12v10M13 17h14" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>
+      <span class="brand-text"><span class="brand-name">港林會計</span><span class="brand-sub">英國特許公認會計師</span></span>
+    </a>
+    <nav class="main-nav" aria-label="選單">
+      <ul><li><a href="#services">服務</a></li><li><a href="#dates">報稅日程</a></li><li><a href="#fees">收費</a></li><li><a href="#team">團隊</a></li><li><a href="#faq">常見問題</a></li></ul>
+    </nav>
+    <div class="header-tools">
+      <div class="lang-switch" role="group" aria-label="語言"><a href="../" lang="en-GB" hreflang="en-GB" title="English">EN</a><a href="../zh-hant/" lang="zh-Hant" hreflang="zh-Hant" title="繁體中文">繁</a><a href="./" lang="yue-Hant-HK" hreflang="zh-HK" title="廣東話" aria-current="true">粵</a><a href="../zh-hans/" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">简</a></div>
+      <a class="btn btn-sm" href="#contact">免費諮詢</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr">選單</span><span class="bars" aria-hidden="true"></span></button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="選單" hidden>
+    <ul><li><a href="#services">服務</a></li><li><a href="#dates">報稅日程</a></li><li><a href="#fees">收費</a></li><li><a href="#team">團隊</a></li><li><a href="#faq">常見問題</a></li><li><a href="#contact">聯絡我們</a></li></ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">專幫移咗英國嘅香港家庭</p>
+        <h1>英國啲稅，我哋用廣東話同你講清楚。</h1>
+        <p class="lede">個人報稅、香港收入同層樓收租、有限公司盤數——由熟悉中英兩邊稅制嘅會計師，用你最熟嘅語言幫你搞掂。</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">約個 20 分鐘免費傾下 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#services">睇下我哋做咩</a>
+        </div>
+        <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>定價收費，事前講清楚</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>廣東話・普通話・英文</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>受 ACCA 監管（示範）</span></li></ul>
+      </div>
+      <div class="hero-visual">
+        <div class="deadline-card">
+          <p class="dc-label">離 1 月 31 號截止仲有</p>
+          <p class="dc-num"><span data-countdown>—</span><small>日</small></p>
+          <p class="dc-note">網上個人報稅及繳稅</p>
+          <div class="dc-rows">
+            <div><span>登記 Self Assessment</span><b>10月5日</b></div>
+            <div><span>網上報稅及繳稅截止</span><b>1月31日</b></div>
+            <div><span>第二期預繳稅</span><b>7月31日</b></div>
+          </div>
+        </div>
+        <div class="receipt" aria-hidden="true">
+          <p>HMRC · SA100</p><i></i><i></i><i class="s"></i><i></i>
+        </div></div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">服務</p>
+        <h2>我哋可以幫你搞乜</h2>
+        <p>我哋大部分客都係呢幾年先嚟英國。我哋會由你嘅實際情況出發，唔會照抄本地人嗰套報稅清單。</p>
+      </header>
+      <div class="svc-grid">
+      <article class="svc">
+        <p class="svc-kicker">個人</p>
+        <h3>個人報稅 Self Assessment</h3>
+        <p>由登記、填表到預繳稅，每個數我哋都會解釋清楚先至交。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>來英第一個稅務年度</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>分割年度（split-year）評估</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>幫你處理 HMRC 寄嚟嘅信</span></li></ul>
+        <p class="svc-price">每份報稅表 £380 起（示範價格）</p>
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">海外收入</p>
+        <h3>香港收入與物業</h3>
+        <p>香港層樓收租、強積金、股息，定係最後嗰份糧——我哋幫你計清楚英國要抽幾多稅，再申請扣返喺香港交咗嘅稅。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>海外稅款抵免</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>匯率換算紀錄</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>海外資產申報</span></li></ul>
+        <p class="svc-price">每項收入來源 £180 起（示範價格）</p>
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">業主</p>
+        <h3>英國出租物業</h3>
+        <p>買咗層樓收租？我哋幫你做數、報可以扣嘅開支，再同你分析用個人定公司名義揸樓有咩分別。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>租金帳目與開支</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>按揭利息稅務寬減</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Making Tax Digital 準備</span></li></ul>
+        <p class="svc-price">每年 £450 起（示範價格）</p>
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">生意</p>
+        <h3>有限公司</h3>
+        <p>喺英國開舖、開網店定做顧問？由開公司、做數、出糧到年結，我哋一手包辦。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>成立公司</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>VAT 及出糧</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>年度帳目及公司稅</span></li></ul>
+        <p class="svc-price">每月 £95 起（示範價格）</p>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="dates">
+    <div class="wrap dates-inner">
+      <header class="sec-head">
+        <p class="eyebrow">報稅日程</p>
+        <h2>英國報稅重要日子</h2>
+        <p>英國稅務年度由 4 月 6 號去到下年 4 月 5 號。以下係客最常問嘅日子。</p>
+      </header>
+      <ol class="timeline">
+          <li><span class="d">4月5日</span><div><h3>稅務年度結束</h3><p>稅務年度最後一天。</p></div></li>
+          <li><span class="d">10月5日</span><div><h3>登記 Self Assessment</h3><p>如果你要為啱啱完嘅稅務年度第一次報稅，就要喺呢日之前登記。</p></div></li>
+          <li><span class="d">10月31日</span><div><h3>紙本報稅截止</h3><p>以紙本遞交的報稅表。</p></div></li>
+          <li><span class="d">1月31日</span><div><h3>網上報稅及繳稅截止</h3><p>網上交報稅表，同埋交清稅款同第一期預繳稅。</p></div></li>
+          <li><span class="d">7月31日</span><div><h3>第二期預繳稅</h3><p>下一年度稅款的第二期預繳。</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="fees">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">收費</p>
+        <h2>開工之前，先講清楚收費</h2>
+        <p>每樣服務都由免費傾開始，再俾你一份書面定價。</p>
+      </header>
+      <ol class="steps">
+        <li><span class="n">1</span><h3>免費諮詢</h3><p>傾 20 分鐘，廣東話、普通話、英文都得。</p></li>
+        <li><span class="n">2</span><h3>定額報價</h3><p>書面報價及所需文件清單。</p></li>
+        <li><span class="n">3</span><h3>代為遞交</h3><p>我哋準備、解釋再幫你交，每份報稅表都要你睇過確認先。</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">我們的團隊</p>
+        <h2>識講你嘅語言嘅會計師</h2>
+      </header>
+      <div class="team-grid">
+      <article class="person">
+        <div class="avatar" aria-hidden="true">IL</div>
+        <div>
+          <h3>林凱欣 Ivy Lin FCCA</h3>
+          <p class="role">創辦人・個人稅務</p>
+          <p class="bio">喺香港入行，喺英國考到牌，15 年嚟專幫兩邊都有收入嘅家庭。</p>
+          <p class="speaks"><span>識講</span> 廣東話、普通話、英文</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="avatar" aria-hidden="true">KC</div>
+        <div>
+          <h3>陳家朗 Kelvin Chan CTA</h3>
+          <p class="role">稅務經理・業主稅務</p>
+          <p class="bio">英國特許稅務師，專做物業收入、資產增值稅同海外資產。</p>
+          <p class="speaks"><span>識講</span> 廣東話、英文</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="avatar" aria-hidden="true">SW</div>
+        <div>
+          <h3>Sophie Ward ACA</h3>
+          <p class="role">公司帳目</p>
+          <p class="bio">負責倫敦各區細公司嘅盤數、VAT 同出糧。</p>
+          <p class="speaks"><span>識講</span> 英文</p>
+        </div>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="faq">
+    <div class="wrap narrow">
+      <header class="sec-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>常見問題</h2>
+      </header>
+      <div class="faq">
+      <details class="qa">
+        <summary>由香港搬嚟英國第一年，使唔使報英國稅？</summary>
+        <div><p>好多時都要，特別係你仲有香港收入、收緊租、有存款利息，或者係自僱。可唔可以用分割年度（split-year）計，要睇你幾時同點樣嚟英國。免費傾嗰陣我哋會幫你睇。</p></div>
+      </details>
+      <details class="qa">
+        <summary>香港層樓收嘅租，要唔要喺英國交稅？</summary>
+        <div><p>如果你係英國稅務居民，海外租金一般都要喺英國報。喺香港交咗嘅稅通常可以扣返，唔會同一筆錢俾人抽兩次稅。</p></div>
+      </details>
+      <details class="qa">
+        <summary>係咪定價收費？</summary>
+        <div><p>係。第一次傾完，我哋開工之前會報個定價。呢個示範網站啲價錢只係參考。</p></div>
+      </details>
+      <details class="qa">
+        <summary>可唔可以見面傾？</summary>
+        <div><p>可以，你可以上嚟倫敦寫字樓，或者 video call。大部分客都係全程網上搞掂，廣東話、普通話、英文都得。</p></div>
+      </details></div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap contact-inner">
+      <div>
+        <p class="eyebrow">聯絡我們</p>
+        <h2>話我哋知你想我哋幫你乜</h2>
+        <p>我哋會喺一個工作天之內，用你寫嚟嘅語言覆你。</p>
+        <ul class="contact-list">
+          <li><span>電話</span><a href="tel:+442079460123">020 7946 0123</a></li>
+          <li><span>電郵</span><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><span>辦公室</span>倫敦（虛構地址）</li>
+          <li><span>辦公時間</span>星期一至五 9:00–18:00・星期六要預約</li>
+        </ul>
+      </div>
+      <form class="enquiry" novalidate data-demo-msg="呢個係示範網站，你嘅訊息冇寄出到。">
+        <label>姓名<input name="name" autocomplete="name" required></label>
+        <label>電郵<input name="email" type="email" autocomplete="email" required></label>
+        <label>電話（可以唔填）<input name="phone" type="tel" autocomplete="tel"></label>
+        <label>想用咩語言溝通<select name="lang"><option>English</option><option>繁體中文</option><option selected>廣東話</option><option>简体中文</option></select></label>
+        <label class="full">講下你想我哋點幫你<textarea name="message" rows="4"></textarea></label>
+        <button class="btn full" type="submit">送出查詢 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="form-status full" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand">港林會計</p>
+        <p class="footer-sub">UX CIRCLES 為咗示範多語、合規網站而作出嚟嘅虛構會計師樓。</p>
+      </div>
+      <div class="reg">
+        <p class="reg-title">監管資訊</p>
+        <ul><li>真實事務所需列明：ACCA 註冊，執業證書編號 0000000（示範）</li><li>反洗錢監管機構：ACCA（示範）</li><li>專業責任保險承保人及承保地區（示範）</li><li>英格蘭及威爾斯註冊公司編號 00000000（示範）</li></ul>
+        
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 港林會計 (fictional) · <a href="#contact">私隱政策</a> · <a href="#contact">投訴程序</a> · 呢個示範網站冇用 cookies 或者追蹤工具。</p>
+      <p>概念網站設計： <a href="https://ux-circles.com/professionals">UX CIRCLES <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a></p>
+    </div>
+  </div>
+</footer>
+<script src="../main.js" defer></script>
+</body>
+</html>
